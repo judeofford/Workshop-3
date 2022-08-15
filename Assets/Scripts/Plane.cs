@@ -11,11 +11,11 @@ public class Plane : SceneEntity
     public Vector3 Center => this.center;
     public Vector3 Normal => this.normal;
     
-    public override RaycastHit? Intersect(Ray ray)
+    public RaycastHit? Intersect(Ray ray)
     {
         // By default we use the Unity engine for ray-entity collisions.
         // See the parent 'SceneEntity' class definition for details.
         // Task: Replace with your own intersection computations.
-        return base.Intersect(ray);
+        ray.
     }
 }
